@@ -1,12 +1,70 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <title>Wojna - gra karciana</title>
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-10">
+                <h1>Wojna - internetowa gra karciana</h1>
+            </div>
+            <div class="col-lg-2">
+                <button class="btn btn-primary btn-lg" id="start">Rozpocznij</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4" id="komputerPole">
+                <h3>Komputer</h3>
+            </div>
+            <div class="col-3">
+                <img src="img/tlo.png" width="100" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <h3>Rozgrywka</h3>
+            </div>
+            <div class="col-3">
+                <img id="komputer" src="img/tlo.png" width="100" />
+            </div>
+            <div class="col-3">
+                <img id="gracz" src="img/tlo.png" width="100" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h2 id="wojna">Wojna!!!</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="offset-7"></div>
+            <div class="col-2">
+                <img id="graczKarta" src="img/tlo.png" width="100" />
+            </div>
+            <div class="col-2" id="graczPole">
+                <h3>Gracz</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <p id="ruchy">Wykonane ruchy:</p>
+            </div>
+        </div>
+    </div>
+
     <script src="js/vue.js"></script>
     <script src="js/index.js"></script>
 </body>
+
 </html>

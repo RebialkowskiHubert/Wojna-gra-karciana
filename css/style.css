@@ -1,0 +1,19 @@
+body{
+    background: linear-gradient(to top right, #009999 0%, #33cc33 59%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+#start{
+    margin-top: 2%;
+}
+
+.row{
+    margin-top: 3%;
+}
+
+#wojna{
+    text-align: center;
+    display: none;
+}
